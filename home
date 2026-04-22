@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Freshman Science: Interactive Lab Modules</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f4; padding: 50px; text-align: center; }
+        .lab-card { 
+            background: white; border: 1px solid #ddd; padding: 20px; 
+            margin: 10px; display: inline-block; width: 200px; border-radius: 8px;
+        }
+        button { background: #2ecc71; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px; }
+        button:hover { background: #27ae60; }
+    </style>
+</head>
+<body>
+    <h1>Science Lab: Kinetic Energy & Probability</h1>
+    <p>Please select a module to begin your simulation.</p>
+
+    <div class="lab-card">
+        <h3>Module 1: Vector Movement</h3>
+        <p>Testing directional velocity in a closed system.</p>
+        <button onclick="location.href='games/snake/index.html'">Start Module 1</button>
+    </div>
+
+    <div class="lab-card">
+        <h3>Module 2: Power of 2</h3>
+        <p>Analyzing mathematical growth patterns.</p>
+        <button onclick="location.href='games/2048/index.html'">Start Module 2</button>
+    </div>
+</body>
+</html>
